@@ -1,0 +1,17 @@
+﻿  ProjectGame.cpp
+D:\Game\ProjectGame\ProjectGame\ProjectGame.cpp(177,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Game\ProjectGame\ProjectGame\ProjectGame.cpp(180,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Game\ProjectGame\ProjectGame\ProjectGame.cpp(492,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(2217,18): error C2064: term does not evaluate to a function taking 1 arguments
+  (compiling source file 'ProjectGame.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(2217,18):
+      the template instantiation context (the oldest one first) is
+          D:\Game\ProjectGame\ProjectGame\ProjectGame.cpp(498,29):
+          see reference to function template instantiation '_FwdIt std::remove_if<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(_FwdIt,const _FwdIt,_Pr)' being compiled
+          with
+          [
+              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Chicken *>>>,
+              _Ty=Chicken *,
+              _Pr=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Chicken *>>>
+          ]
+  
